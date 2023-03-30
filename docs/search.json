@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "mybook.html",
+    "href": "mybook.html",
+    "title": "My Awesome Paper",
+    "section": "",
+    "text": "Summary\nTraining a large deep learning model could benefit from recomputation1 of intermediate activations. This is a technique that allows us to save memory by recomputing intermediate activations during the backward pass. In this post, we will implement this technique in PyTorch and see how it can be used to train a large model.\nThe bibliography is generated from the bibtex file. The csl file is used to format the bibliography. You can find more CSL files here\n\n\nExample code block\nSee this for more details on how to hide code cell and its output. In this example we hide the code cell by using echo: false in the code block.\n\n\n\n\n\n\n\nExample of latex equation\n\\[\ny = \\sum_{i=1}^N x_i^2\n\\]\n\n\n\n\n\nReferences\n\n1. Chen T, Xu B, Zhang C, Guestrin C. Training deep nets with sublinear memory cost. Published online 2016. https://arxiv.org/abs/1604.06174"
+  }
+]
