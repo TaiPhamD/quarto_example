@@ -1,7 +1,8 @@
 ---
 title: "My Awesome Paper"
 bibliography: 
-    - chen2016.bibtex
+    - citations/chen2016.bibtex
+    - citations/opf.bibtex
 csl: ama.csl
 jupyter: python3
 ---
@@ -11,6 +12,9 @@ jupyter: python3
 Training a large deep learning model could benefit from recomputation @chen2016training of intermediate activations. This is a technique that allows us to save memory by recomputing intermediate activations during the backward pass. In this post, we will implement this technique in PyTorch and see how it can be used to train a large model.
 
 The bibliography is generated from the bibtex file. The csl file is used to format the bibliography. You can find more CSL files [here](https://github.com/citation-style-language/styles)
+
+
+You can also site multiple sources @chen2016training @9844847 as well.
 
 # Example code block
 
